@@ -3,7 +3,7 @@ import './App.scss'
 function App() {
   return (
     <>
-      <p>hello</p>
+      <p>second commit? or first commit on new branch</p>
     </>
   )
 }
