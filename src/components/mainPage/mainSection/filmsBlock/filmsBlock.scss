@@ -1,0 +1,51 @@
+.films {
+  background-color: #b89191;
+  width: 1319px;
+  padding: 27px 37px 61px 45px;
+}
+
+.films__header {
+  margin-bottom: 19px;
+}
+
+.films__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+// 45 27 37 61
+.films__card {
+  display: flex;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  img {
+    width: 177px;
+    height: 230px;
+  }
+}
+
+.films__header {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  //   text-align: left;
+}
+
+.films__info {
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+.films__info p {
+  color: rgb(101, 101, 101);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  //   text-align: left;
+}
