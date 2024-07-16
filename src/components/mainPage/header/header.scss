@@ -1,0 +1,54 @@
+.center {
+  margin: 0 auto;
+  display: flex;
+  // gap: 1018px;
+  width: 1512px;
+}
+
+.header {
+  background-color: #3e54b5;
+  height: 72px;
+  display: flex;
+  align-items: center;
+}
+
+.header .center {
+  justify-content: space-between;
+  align-items: center;
+  background-color: #414454;
+  padding: 8px;
+}
+
+.search-content {
+  height: 40px;
+  width: 327px;
+  border-radius: 6px;
+  background-color: white;
+  // margin-left: 22px;
+
+  display: flex;
+  padding: 12px 10px;
+}
+
+input {
+  /* background-color: rgb(184, 157, 157); */
+  width: 285px;
+  margin-left: 6px;
+}
+
+.headerText {
+  color: #a1a7c4;
+
+  font-weight: 700;
+  font-family: Inter;
+  font-size: 24px;
+
+  // Высота строки: 24px
+  // Межбуквенное расстояние: 0px
+  // Выровнять: Выровнять по левой
+}
+
+.header__iconSearch {
+  width: 17px;
+  height: 17px;
+}
